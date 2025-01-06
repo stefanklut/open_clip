@@ -1,0 +1,21 @@
+name: open-clip
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.4
+  - numpy
+  - pillow
+  - matplotlib
+  - scikit-image
+  - pooch
+  - pip
+  - IPython
+  - jupyter
+  - pip:
+      - .
